@@ -37,7 +37,7 @@ class ListOfEquipAdmin(admin.ModelAdmin):
 class EmployeesAdmin(admin.ModelAdmin):
     list_display = ('last_name', 'first_name', 'mid_name', 'post')
     list_filter = ['post']
-    search_fields = ['last_name', 'post']
+    search_fields = ['last_name']
 
 
 class CustomersEquipmentAdmin(admin.ModelAdmin):
